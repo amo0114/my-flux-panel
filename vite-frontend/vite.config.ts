@@ -6,9 +6,9 @@ import legacy from '@vitejs/plugin-legacy'
 export default defineConfig({
   plugins: [
     react(),
-    legacy({
-      targets: ['chrome 80', 'firefox 78', 'edge 80', 'safari 13'] 
-    })
+    // legacy({
+    //   targets: ['chrome 80', 'firefox 78', 'edge 80', 'safari 13'] 
+    // })
   ],
   base: './',    
   resolve: {
